@@ -29,7 +29,7 @@ resource "azurerm_kubernetes_cluster" "production" {
   }
 }
 
-# For GCP:
+# For GCP - testing:
 resource "google_compute_instance" "example" {
   network_interface {
     network = "default"
