@@ -29,7 +29,7 @@ resource "aws_iam_policy" "example" {
 
 # GCP
 resource "google_project_iam_binding" "example" {
-  project = "example"
+  project = "example92"
   role    = "roles/owner" # Sensitive
 
   members = [
